@@ -15,3 +15,5 @@
   ```
 
 2) Open the url `http://localhost:3000` in your favourite browser.
+
+3) Press on either HTML or JSON links to see the magic!
