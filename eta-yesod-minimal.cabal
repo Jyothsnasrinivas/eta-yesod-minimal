@@ -21,10 +21,6 @@ library
       src
   build-depends:
         base
-      , file-embed
-      , blaze-html
-      , text
-      , bytestring
       , shakespeare
       , template-haskell
       , yesod-core
@@ -39,10 +35,6 @@ executable yesod-minimal
   ghc-options: -threaded -rtsopts -with-rtsopts=-N
   build-depends:
       base
-    , file-embed
-    , blaze-html
-    , text
-    , bytestring
     , shakespeare
     , template-haskell
     , yesod-core

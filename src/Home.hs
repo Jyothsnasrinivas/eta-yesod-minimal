@@ -1,15 +1,11 @@
-{-# LANGUAGE OverloadedStrings #-}
-{-# LANGUAGE QuasiQuotes, ScopedTypeVariables       #-}
+{-# LANGUAGE OverloadedStrings   #-}
+{-# LANGUAGE QuasiQuotes         #-}
+
 module Home where
 
-import Foundation
 import Yesod.Core
-import Data.Monoid (mconcat)
-import Data.FileEmbed
-import Data.Text.Lazy (Text)
-import Data.Text.Lazy.Encoding
+import Foundation
 import Text.Hamlet
-import Text.Blaze.Html.Renderer.Text
 
 getHomeR :: Handler Html
 getHomeR = do defaultLayout [whamlet|
