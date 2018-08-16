@@ -17,3 +17,7 @@
 2) Open the url `http://localhost:3000` in your favourite browser.
 
 3) Press on either HTML or JSON links to see the magic!
+
+** Credits **
+
+This example is inspired from [yesod-minimal template](https://github.com/commercialhaskell/stack-templates/blob/master/yesod-minimal.hsfiles))
