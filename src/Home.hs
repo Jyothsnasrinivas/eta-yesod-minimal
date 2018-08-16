@@ -12,7 +12,7 @@ import Text.Hamlet
 import Text.Blaze.Html.Renderer.Text
 
 getHomeR :: Handler Html
-getHomeR = do return [shamlet|
+getHomeR = do defaultLayout [whamlet|
                <!DOCTYPE html>
                <html>
                  <head>
@@ -22,9 +22,9 @@ getHomeR = do return [shamlet|
                      <h1 style="color: #ffffff; text-align: center;">Yesod example in Eta!
                      <h3 style="color: #ffffff; text-align: center;">
                      <p style="text-align:center">
-                         <a style="color: white" href="#">HTML
+                         <a style="color: white" href=@{AddR 1 3}>HTML
                      <p style="text-align:center">
-                         <a style="color: white" href="#">JSON
+                         <a style="color: white" href=@{AddR 1 3}?_accept=application/json>JSON
                  <style>
                    .box{
                         width: 400px;
