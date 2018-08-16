@@ -19,7 +19,7 @@ getHomeR = do defaultLayout [whamlet|
                    <title>Eta is running on Yesod!
                  <body style="background-color: #2cd4d9">
                    <div class="box">
-                     <h1 style="color: #ffffff; text-align: center;">Yesod example in Eta!
+                     <h1 style="color: #ffffff; text-align: center;">Yesod-minimal example in Eta!
                      <h3 style="color: #ffffff; text-align: center;">
                      <p style="text-align:center">
                          <a style="color: white" href=@{AddR 1 3}>HTML
