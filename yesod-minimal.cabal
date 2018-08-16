@@ -1,0 +1,50 @@
+-- This file has been generated from package.yaml by hpack version 0.28.2.
+--
+-- see: https://github.com/sol/hpack
+--
+-- hash: ac67c407513a064c947cc165fc33a02f16997d13308deefbb66fa9ee8590e3bb
+
+name:           yesod-minimal
+version:        0.0.0
+build-type:     Simple
+cabal-version:  >= 1.10
+
+library
+  exposed-modules:
+      Add
+      Application
+      Foundation
+      Home
+  other-modules:
+      Paths_yesod_minimal
+  hs-source-dirs:
+      src
+  build-depends:
+        base
+      , file-embed
+      , blaze-html
+      , text
+      , bytestring
+      , shakespeare
+      , template-haskell
+      , yesod-core
+  default-language: Haskell2010
+
+executable yesod-minimal
+  main-is: Main.hs
+  other-modules:
+      Paths_yesod_minimal
+  hs-source-dirs:
+      app
+  ghc-options: -threaded -rtsopts -with-rtsopts=-N
+  build-depends:
+      base
+    , file-embed
+    , blaze-html
+    , text
+    , bytestring
+    , shakespeare
+    , template-haskell
+    , yesod-core
+    , yesod-minimal
+  default-language: Haskell2010
