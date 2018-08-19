@@ -18,6 +18,6 @@
 
 3) Press on either HTML or JSON links to see the magic!
 
-** Credits **
+**Credits**
 
 This example is inspired from [yesod-minimal template](https://github.com/commercialhaskell/stack-templates/blob/master/yesod-minimal.hsfiles))
